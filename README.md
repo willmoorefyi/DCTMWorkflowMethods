@@ -18,7 +18,8 @@ definitions, then simply create a Module and Method for the Jar definition as yo
 ### Notes
 * The projects were built using Eclipse Indigo (3.7)
 * If you do not have access to the TriTek nexus repository (on Kansas.tritek.com), you may need to install the necessary 
-Documentum dependencies into your local Nexus repository.  These were all built using 'DFC 6.6' with an internal version 
-number of 'DFC 6.6.0.39'.  This has been tested on Documentum platforms 6.5 SP3 and 6.6 (patch versions unknonw).
+Documentum dependencies into your local Nexus repository.  These were all built using `DFC 6.61 with an internal version 
+number of `DFC 6.6.0.39`.  This has been tested on Documentum platforms 6.5 SP3 and 6.6 (patch versions unknown). You can
+find the Maven registration script in the 'Utilities` folder
 * Some of the activities depend on the definition of a global library to function correctly as workflow methods, which you
 would also define using Composer
